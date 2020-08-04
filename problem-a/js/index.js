@@ -75,7 +75,7 @@ console.log(rect.x + ", " + rect.y);
 //Set the rectangle's height to be the square root of its width. (Use the 
 //`Math.sqrt()` function).
 //Use *dot notation* to access the properties!
-console.log(Math.sqrt(rect.height));
+rect.height = Math.sqrt(rect.width);
 
 //Log out the rectangle's area. Use *dot notation* to access the properties!
 console.log(rect.width * rect.height);
